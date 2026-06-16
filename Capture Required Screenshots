@@ -1,0 +1,161 @@
+# Task 7: Screenshot Evidence
+
+The following screenshots were captured from the Tableau workbook and included as supporting evidence.
+
+---
+
+## 1. full_dashboard.png
+
+### Must Show
+
+* Complete executive dashboard
+* Dashboard title
+* KPI cards
+* All major visualizations
+* Filters
+* Dashboard layout
+
+### Verification Checklist
+
+✓ Dashboard title visible
+
+✓ At least 5 charts visible
+
+✓ At least 3 KPI cards visible
+
+✓ Filters visible
+
+✓ Labels readable
+
+---
+
+## 2. sales_trend_view.png
+
+### Must Show
+
+Sales Trend worksheet
+
+### Recommended Contents
+
+* Line chart
+* Order Date on X-axis
+* Sales on Y-axis
+* Chart title visible
+
+### Verification Checklist
+
+✓ Trend line visible
+
+✓ Date labels readable
+
+✓ Sales values readable
+
+✓ Worksheet title visible
+
+---
+
+## 3. regional_performance_view.png
+
+### Must Show
+
+Regional or State Performance worksheet
+
+### Recommended Contents
+
+* Bar chart or map
+* Sales and/or Profit by Region or State
+
+### Verification Checklist
+
+✓ Regions visible
+
+✓ Performance values visible
+
+✓ Legend visible (if applicable)
+
+✓ Chart title visible
+
+---
+
+## 4. category_profitability_view.png
+
+### Must Show
+
+Category Profitability worksheet
+
+### Recommended Contents
+
+* Category and Sub-Category analysis
+* Profit measure
+
+### Verification Checklist
+
+✓ Categories visible
+
+✓ Profit values visible
+
+✓ Sorting visible
+
+✓ Chart title visible
+
+---
+
+## 5. filter_interaction_view.png
+
+### Must Show
+
+Evidence of dashboard interaction
+
+### Recommended Method
+
+1. Select a filter value
+   (Example: Region = West)
+
+2. Show dashboard updating automatically
+
+3. Capture screenshot after filtering
+
+### Verification Checklist
+
+✓ Filter selected
+
+✓ Dashboard updated
+
+✓ Interaction clearly visible
+
+✓ Resulting data changes visible
+
+---
+
+# Screenshot Quality Requirements
+
+All screenshots must be:
+
+* Full resolution
+* Clearly readable
+* Properly cropped
+* Free of overlapping windows
+* Saved as PNG format
+
+Avoid:
+
+* Blurry screenshots
+* Partial charts
+* Cut-off labels
+* Tiny unreadable text
+
+---
+
+# Required Files
+
+screenshots/full_dashboard.png
+
+screenshots/sales_trend_view.png
+
+screenshots/regional_performance_view.png
+
+screenshots/category_profitability_view.png
+
+screenshots/filter_interaction_view.png
+
+All screenshots were captured from the completed Tableau workbook and provide evidence that the required views, dashboard components, and interactions were successfully implemented.
