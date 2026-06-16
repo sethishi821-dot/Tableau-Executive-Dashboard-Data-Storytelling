@@ -1,0 +1,226 @@
+# Task 6: Visualization Design Principles
+
+## Objective
+
+The executive dashboard was designed to communicate business performance clearly and efficiently. Visualization design principles were applied to improve readability, reduce clutter, and support decision-making.
+
+---
+
+# 1. Clarity
+
+All charts include:
+
+* Clear titles
+* Meaningful axis labels
+* Consistent formatting
+* Readable fonts
+
+Examples:
+
+* "Monthly Sales Trend"
+* "Profit by Category"
+* "Regional Sales Performance"
+
+Users can immediately understand what each visualization represents.
+
+---
+
+# 2. Appropriate Chart Selection
+
+Each chart type was selected based on the business question.
+
+| Business Question                      | Chart Type      |
+| -------------------------------------- | --------------- |
+| How are sales changing over time?      | Line Chart      |
+| Which region performs best?            | Bar Chart / Map |
+| Which categories drive profit?         | Bar Chart       |
+| How does discount affect profit?       | Scatter Plot    |
+| Which segment has higher return rates? | Bar Chart       |
+| Which shipping mode causes delays?     | Bar Chart       |
+
+This ensures that information is presented in the most understandable format.
+
+---
+
+# 3. Consistent Color Usage
+
+Colors were applied consistently throughout the dashboard.
+
+### Color Logic
+
+* Sales = Blue
+* Profit = Green
+* Returns = Red
+* Neutral values = Gray
+
+Benefits:
+
+* Faster interpretation
+* Reduced confusion
+* Consistent user experience
+
+---
+
+# 4. Minimal Clutter
+
+The dashboard avoids unnecessary visual elements such as:
+
+* 3D charts
+* Decorative graphics
+* Excessive borders
+* Unnecessary gridlines
+* Complex backgrounds
+
+This keeps attention focused on the data.
+
+---
+
+# 5. Effective Use of White Space
+
+Adequate spacing was maintained between:
+
+* KPI cards
+* Charts
+* Filters
+
+Benefits:
+
+* Improves readability
+* Prevents overcrowding
+* Creates a professional appearance
+
+---
+
+# 6. Logical Layout
+
+Dashboard components are arranged according to business priority.
+
+### Top Section
+
+Executive KPIs
+
+* Total Sales
+* Total Profit
+* Profit Margin
+* Return Rate
+
+### Middle Section
+
+Performance Overview
+
+* Sales Trend
+* Regional Performance
+
+### Bottom Section
+
+Detailed Analysis
+
+* Category Profitability
+* Discount vs Profit
+* Return Analysis
+
+This layout supports a natural flow from summary metrics to detailed analysis.
+
+---
+
+# 7. Interactive Design
+
+Interactive filters were added to allow users to explore data dynamically.
+
+Filters include:
+
+* Region
+* Category
+* Customer Segment
+* Date
+* Ship Mode
+
+Users can focus on specific areas without creating additional dashboards.
+
+---
+
+# 8. Meaningful KPI Formatting
+
+Key metrics use appropriate formats.
+
+### Sales
+
+Currency format
+
+Example:
+
+₹1,250,000
+
+### Profit Margin
+
+Percentage format
+
+Example:
+
+18.4%
+
+### Return Rate
+
+Percentage format
+
+Example:
+
+4.2%
+
+This improves interpretation and reduces calculation effort for users.
+
+---
+
+# 9. Sorting and Ranking
+
+Bar charts are sorted by performance values.
+
+Benefits:
+
+* Top-performing regions become immediately visible
+* High-profit categories can be identified quickly
+* Supports faster decision-making
+
+---
+
+# 10. Accessibility and Readability
+
+The dashboard was designed for a business audience.
+
+Measures taken:
+
+* High contrast text
+* Readable font sizes
+* Limited color palette
+* Clear legends
+* Consistent terminology
+
+---
+
+# Design Principles Checklist
+
+✓ Clear chart titles
+
+✓ Appropriate chart types
+
+✓ Consistent colors
+
+✓ Minimal clutter
+
+✓ Effective white space
+
+✓ Logical dashboard layout
+
+✓ Interactive filtering
+
+✓ Business-friendly KPI formatting
+
+✓ Sorted visualizations
+
+✓ Readable and accessible design
+
+---
+
+# Conclusion
+
+The dashboard follows Tableau visualization best practices by emphasizing clarity, consistency, simplicity, and business usability. Every visual element serves a purpose and supports executive decision-making rather than decorative presentation.
