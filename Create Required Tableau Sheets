@@ -1,0 +1,252 @@
+# Required Tableau Sheets
+
+## 1. Sales Trend View
+
+### Purpose
+
+Show how sales change over time.
+
+### Recommended Visualization
+
+Line Chart
+
+### Configuration
+
+* Columns: Order Date (Month or Quarter)
+* Rows: SUM(Sales)
+* Color: Year (optional)
+
+### Business Insight
+
+This view helps identify:
+
+* Growth trends
+* Seasonal patterns
+* Peak sales periods
+* Declining sales periods
+
+---
+
+## 2. Regional Performance View
+
+### Purpose
+
+Compare sales and profit across regions or states.
+
+### Recommended Visualization
+
+Filled Map or Bar Chart
+
+### Configuration
+
+Option A: Region Analysis
+
+* Rows: Region
+* Columns: SUM(Sales)
+* Color: SUM(Profit)
+
+Option B: State Map
+
+* State on map
+* Size: Sales
+* Color: Profit
+
+### Business Insight
+
+This view identifies:
+
+* High-performing regions
+* Low-performing regions
+* Geographic profit differences
+
+---
+
+## 3. Category Profitability View
+
+### Purpose
+
+Evaluate category and sub-category performance.
+
+### Recommended Visualization
+
+Horizontal Bar Chart
+
+### Configuration
+
+* Rows: Category, Sub-Category
+* Columns: SUM(Profit)
+* Color: Profit Margin
+
+### Business Insight
+
+This view helps identify:
+
+* Most profitable categories
+* Loss-making categories
+* Product areas requiring attention
+
+---
+
+## 4. Customer Segment View
+
+### Purpose
+
+Compare business performance across customer segments.
+
+### Recommended Visualization
+
+Side-by-Side Bar Chart
+
+### Configuration
+
+* Columns: Customer Segment
+* Rows: SUM(Sales)
+* Secondary Measure: SUM(Profit)
+
+### Business Insight
+
+This view identifies:
+
+* Highest-value customer groups
+* Most profitable segments
+* Segment-specific opportunities
+
+---
+
+## 5. Shipping Performance View
+
+### Purpose
+
+Analyze delivery performance and shipping efficiency.
+
+### Recommended Visualization
+
+Bar Chart
+
+### Configuration
+
+* Rows: Shipping Delay Bucket
+* Columns: AVG(Delivery Days)
+* Color: Ship Mode
+
+Alternative:
+
+* Rows: Ship Mode
+* Columns: AVG(Delivery Days)
+
+### Business Insight
+
+This view identifies:
+
+* Fastest shipping methods
+* Delivery bottlenecks
+* Operational improvement opportunities
+
+---
+
+## 6. Discount vs Profit View
+
+### Purpose
+
+Analyze the relationship between discounts and profitability.
+
+### Recommended Visualization
+
+Scatter Plot
+
+### Configuration
+
+* Columns: Discount
+* Rows: Profit
+* Detail: Order ID
+* Color: Category
+
+### Business Insight
+
+This view helps determine:
+
+* Whether discounts improve performance
+* Whether high discounts reduce profitability
+* Optimal discount levels
+
+---
+
+## 7. Return Analysis View
+
+### Purpose
+
+Understand return behavior across the business.
+
+### Recommended Visualization
+
+Bar Chart
+
+### Configuration
+
+Option A
+
+* Rows: Category
+* Columns: SUM(Return Flag)
+
+Option B
+
+* Rows: Customer Segment
+* Columns: SUM(Return Flag)
+
+Option C
+
+* Rows: Region
+* Columns: SUM(Return Flag)
+
+### Business Insight
+
+This view identifies:
+
+* Categories with high returns
+* Regions with high return rates
+* Customer segments generating more returns
+
+---
+
+# Optional Additional Views
+
+## Profit Margin Dashboard
+
+* Region vs Profit Margin
+* Category vs Profit Margin
+
+## Top Products View
+
+* Top 10 products by sales
+* Top 10 products by profit
+
+## Customer Rating Analysis
+
+* Customer Rating vs Sales
+* Customer Rating vs Profit
+
+## Monthly KPI Summary
+
+Key indicators:
+
+* Total Sales
+* Total Profit
+* Profit Margin
+* Return Rate
+* Average Order Value
+
+---
+
+# Workbook Summary
+
+The Tableau workbook contains:
+
+1. Sales Trend View
+2. Regional Performance View
+3. Category Profitability View
+4. Customer Segment View
+5. Shipping Performance View
+6. Discount vs Profit View
+7. Return Analysis View
+
+These views collectively support sales, profitability, customer, logistics, and return-performance analysis and satisfy the project requirements.
