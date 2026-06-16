@@ -1,0 +1,229 @@
+# Task 4: Appropriate Chart Types
+
+## Overview
+
+Chart types were selected based on the business question being answered. The goal was to maximize clarity, support decision-making, and avoid misleading visualizations.
+
+---
+
+## 1. Sales Trend View
+
+### Business Question
+
+How are sales changing over time?
+
+### Chart Type
+
+Line Chart
+
+### Reason
+
+Line charts are the most effective method for displaying trends across time periods.
+
+### Fields Used
+
+* Order Date (Month)
+* Sales
+
+### Why This Works
+
+* Clearly shows growth and decline patterns
+* Highlights seasonality
+* Easy to compare periods
+
+---
+
+## 2. Regional Performance View
+
+### Business Question
+
+Which regions perform best?
+
+### Chart Type
+
+Horizontal Bar Chart
+
+### Alternative
+
+Filled Map
+
+### Fields Used
+
+* Region
+* Sales
+* Profit
+
+### Why This Works
+
+* Enables direct comparison between regions
+* Makes top-performing regions immediately visible
+* Easier to interpret than pie charts
+
+---
+
+## 3. Category Profitability View
+
+### Business Question
+
+Which categories drive profit or losses?
+
+### Chart Type
+
+Bar Chart
+
+### Fields Used
+
+* Category
+* Sub-Category
+* Profit
+
+### Why This Works
+
+* Supports ranking and comparison
+* Clearly identifies profitable and loss-making categories
+* Handles many categories effectively
+
+---
+
+## 4. Customer Segment View
+
+### Business Question
+
+Which customer segments generate the most value?
+
+### Chart Type
+
+Side-by-Side Bar Chart
+
+### Fields Used
+
+* Customer Segment
+* Sales
+* Profit
+
+### Why This Works
+
+* Allows comparison between segments
+* Shows differences in revenue and profitability
+
+---
+
+## 5. Shipping Performance View
+
+### Business Question
+
+Which shipping modes are associated with delays?
+
+### Chart Type
+
+Bar Chart
+
+### Fields Used
+
+* Ship Mode
+* Average Delivery Days
+
+### Why This Works
+
+* Clearly compares shipping methods
+* Easy to identify slower delivery options
+
+---
+
+## 6. Discount vs Profit View
+
+### Business Question
+
+How does discount relate to profit?
+
+### Chart Type
+
+Scatter Plot
+
+### Fields Used
+
+* Discount
+* Profit
+
+### Why This Works
+
+* Best chart for analyzing relationships between two numerical variables
+* Reveals patterns, clusters, and outliers
+* Helps determine whether higher discounts reduce profitability
+
+---
+
+## 7. Return Analysis View
+
+### Business Question
+
+Which categories, segments, or regions have the highest return rates?
+
+### Chart Type
+
+Bar Chart
+
+### Alternative
+
+Highlight Table
+
+### Fields Used
+
+* Category or Segment or Region
+* Return Rate
+
+### Why This Works
+
+* Facilitates comparison across groups
+* Makes high-return areas easy to identify
+
+---
+
+# Visualization Best Practices Followed
+
+## Avoided Misleading Charts
+
+The dashboard does not use:
+
+* 3D charts
+* Decorative gauges
+* Exploded pie charts
+* Excessive colors
+* Distorted scales
+
+These chart types can make business comparisons difficult.
+
+---
+
+## Consistent Formatting
+
+The dashboard uses:
+
+* Consistent color schemes
+* Clear labels
+* Meaningful titles
+* Readable axes
+* Appropriate sorting
+
+---
+
+## Decision-Making Focus
+
+Every chart was selected to answer a specific business question and support operational decision-making.
+
+The visualizations focus on:
+
+* Sales performance
+* Profitability
+* Customer behavior
+* Shipping efficiency
+* Return risk
+* Discount effectiveness
+
+rather than decorative presentation.
+
+---
+
+# Conclusion
+
+The selected chart types align with Tableau visualization best practices and are appropriate for the business questions being analyzed. Each chart was chosen to maximize clarity, support comparison, and improve decision-making while avoiding misleading or unnecessary visualizations.
