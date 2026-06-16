@@ -1,0 +1,303 @@
+# Executive Dashboard Design
+
+## Dashboard Title
+
+**Sales & Profit Performance Executive Dashboard**
+
+---
+
+# KPI Cards (Top Section)
+
+Include at least three KPI cards at the top of the dashboard.
+
+### KPI 1: Total Sales
+
+Formula:
+
+```tableau
+SUM([sales])
+```
+
+Purpose:
+
+Shows total revenue generated.
+
+---
+
+### KPI 2: Total Profit
+
+Formula:
+
+```tableau
+SUM([profit])
+```
+
+Purpose:
+
+Shows overall profitability.
+
+---
+
+### KPI 3: Profit Margin
+
+Formula:
+
+```tableau
+SUM([profit]) / SUM([sales])
+```
+
+Format as Percentage.
+
+Purpose:
+
+Measures overall business efficiency.
+
+---
+
+### Optional KPI 4: Return Rate
+
+Formula:
+
+```tableau
+SUM([return_flag]) / COUNT([order_id])
+```
+
+Purpose:
+
+Measures percentage of returned orders.
+
+---
+
+### Optional KPI 5: Average Order Value
+
+Formula:
+
+```tableau
+SUM([sales]) / COUNTD([order_id])
+```
+
+Purpose:
+
+Measures average revenue per order.
+
+---
+
+# Required Charts
+
+## 1. Sales Trend View
+
+Chart Type:
+
+Line Chart
+
+Fields:
+
+* Order Date
+* Sales
+
+Purpose:
+
+Monitor sales growth and seasonality.
+
+---
+
+## 2. Regional Performance View
+
+Chart Type:
+
+Horizontal Bar Chart
+
+Fields:
+
+* Region
+* Sales
+
+Color:
+
+Profit
+
+Purpose:
+
+Compare regional performance.
+
+---
+
+## 3. Category Profitability View
+
+Chart Type:
+
+Bar Chart
+
+Fields:
+
+* Category
+* Profit
+
+Purpose:
+
+Identify profitable and loss-making categories.
+
+---
+
+## 4. Discount vs Profit View
+
+Chart Type:
+
+Scatter Plot
+
+Fields:
+
+* Discount
+* Profit
+
+Purpose:
+
+Analyze impact of discounts on profitability.
+
+---
+
+## 5. Return Analysis View
+
+Chart Type:
+
+Bar Chart
+
+Fields:
+
+* Category or Customer Segment
+* Return Rate
+
+Purpose:
+
+Identify areas with high return risk.
+
+---
+
+# Interactive Filters
+
+Add at least three filters.
+
+Recommended:
+
+### Filter 1
+
+Region
+
+### Filter 2
+
+Category
+
+### Filter 3
+
+Customer Segment
+
+Additional options:
+
+* Order Date
+* Ship Mode
+* Campaign Channel
+
+Apply filters to all worksheets.
+
+---
+
+# Dashboard Actions
+
+Create at least one dashboard action.
+
+### Recommended Action
+
+Source Sheet:
+
+Regional Performance View
+
+Target Sheets:
+
+* Sales Trend
+* Category Profitability
+* Return Analysis
+
+Action Type:
+
+Filter Action
+
+Behavior:
+
+Selecting a region automatically filters all related charts.
+
+---
+
+# Layout Structure
+
+## Top Section
+
+KPI Cards
+
+| Total Sales | Total Profit | Profit Margin | Return Rate |
+
+---
+
+## Middle Section
+
+| Sales Trend | Regional Performance |
+
+---
+
+## Bottom Section
+
+| Category Profitability | Discount vs Profit |
+| ---------------------- | ------------------ |
+
+| Return Analysis |
+
+---
+
+# Formatting Guidelines
+
+Use:
+
+* Consistent colors
+* Clear chart titles
+* Currency formatting for Sales and Profit
+* Percentage formatting for Profit Margin and Return Rate
+* Readable fonts
+* Appropriate spacing
+
+Avoid:
+
+* 3D charts
+* Excessive colors
+* Unnecessary borders
+* Overcrowded layouts
+
+---
+
+# Dashboard Requirements Checklist
+
+✓ Clear dashboard title
+
+✓ At least 5 charts
+
+✓ At least 3 KPI cards
+
+✓ At least 3 filters
+
+✓ At least 1 filter action
+
+✓ Clean layout
+
+✓ Clear labels
+
+✓ Meaningful colors
+
+✓ Minimal clutter
+
+✓ Business-friendly formatting
+
+---
+
+# Screenshot Requirement
+
+After completing the dashboard, take a screenshot of the entire dashboard and save it as:
+
+screenshots/full_dashboard.png
